@@ -10,6 +10,7 @@ public class RestTestController {
 	@RequestMapping("/")
     public String restTest(@RequestParam(value="name", defaultValue="World") String name) {
         return "Return name= " + name ;
+        
     }
 	
 }
