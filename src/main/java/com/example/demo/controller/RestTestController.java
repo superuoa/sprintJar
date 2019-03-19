@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestTestController {
 
-	@RequestMapping("/test")
+	@RequestMapping("/")
     public String restTest(@RequestParam(value="name", defaultValue="World") String name) {
         return "Return name= " + name ;
     }
