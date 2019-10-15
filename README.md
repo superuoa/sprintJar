@@ -1,0 +1,2 @@
+# sprintJar
+get os env
